@@ -102,12 +102,13 @@ s = pcolor(Xmesh,T,U);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$u$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$u$","FontSize",35,"Interpreter","latex")
 xlim([0,50])
 ylim([0,300])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -120,12 +121,13 @@ s = pcolor(Xmesh,T,V);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$v$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$v$","FontSize",35,"Interpreter","latex")
 xlim([0,50])
 ylim([0,300])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -209,12 +211,13 @@ s = pcolor(Xmesh,T,U);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$u$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$u$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -227,12 +230,13 @@ s = pcolor(Xmesh,T,V);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$v$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$v$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -322,12 +326,13 @@ s = pcolor(Xmesh,T,U);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$u$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$u$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -340,12 +345,13 @@ s = pcolor(Xmesh,T,V);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$v$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$v$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -438,12 +444,13 @@ s = pcolor(Xmesh,T,U);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$u$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$u$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -456,12 +463,13 @@ s = pcolor(Xmesh,T,V);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$v$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$v$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -560,12 +568,13 @@ s = pcolor(Xmesh,T,U);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$u$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$u$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
@@ -578,12 +587,13 @@ s = pcolor(Xmesh,T,V);
 grid off;
 s.EdgeColor="none";
 colormap(flipud(gray))
-xlabel("$\tilde{\xi}$","FontSize",20,"Interpreter","latex")
-ylabel("$t$","FontSize",20,"Interpreter","latex")
-title("$v$","FontSize",20,"Interpreter","latex")
+xlabel("$\tilde{\xi}$","FontSize",35,"Interpreter","latex")
+ylabel("$t$","FontSize",35,"Interpreter","latex")
+title("$v$","FontSize",35,"Interpreter","latex")
 xlim([0,Xend])
 ylim([0,timeEnd])
 pbaspect([4/2 1 1])
+set(gca,'FontSize',24)
 
 set(gcf,"Position",[100, 100, 800, 420])
 
