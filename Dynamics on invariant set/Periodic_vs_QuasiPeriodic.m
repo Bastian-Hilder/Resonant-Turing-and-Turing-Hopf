@@ -19,11 +19,12 @@ Xinit = [1,0];
 
 figure;
 plot(angle(exp(1i*t)),angle(x(:,1).*exp(-1i*omegaA*eps^2*t)),'.');
-xlabel("$\theta$","FontSize",16,"Interpreter","latex");
-ylabel("$\phi_A$","FontSize",16,"Interpreter","latex");
-title("$\varepsilon = 0.1$","FontSize",16,"Interpreter","latex");
+xlabel("$\theta$","FontSize",28,"Interpreter","latex");
+ylabel("$\phi_A$","FontSize",28,"Interpreter","latex");
+title("$\varepsilon = 0.1$","FontSize",28,"Interpreter","latex");
 ylim([-pi,pi]);
 xlim([-pi,pi]);
+set(gca,'FontSize',20)
 saveas(gcf,'periodic.png')
 
 figure;
@@ -35,6 +36,7 @@ subplot(2,1,2);
 plot(t,abs(x(:,2)));
 xlabel("$t$","Interpreter","latex");
 ylabel("$|B|$","Interpreter","latex");
+set(gca,'FontSize',20)
 saveas(gcf,'amplitudes-eps01.png');
 
 
@@ -53,11 +55,12 @@ Xinit = [1,0];
 
 figure;
 plot(angle(exp(1i*t)),angle(x(:,1).*exp(-1i*omegaA*eps^2*t)),'.');
-xlabel("$\theta$","FontSize",16,"Interpreter","latex");
-ylabel("$\phi_A$","FontSize",16,"Interpreter","latex");
-title("$\varepsilon = 0.09$","FontSize",16,"Interpreter","latex");
+xlabel("$\theta$","FontSize",28,"Interpreter","latex");
+ylabel("$\phi_A$","FontSize",28,"Interpreter","latex");
+title("$\varepsilon = 0.09$","FontSize",28,"Interpreter","latex");
 ylim([-pi,pi]);
 xlim([-pi,pi]);
+set(gca,'FontSize',20)
 saveas(gcf,"quasiperiodic.png");
 
 figure;
@@ -69,4 +72,5 @@ subplot(2,1,2);
 plot(t,abs(x(:,2)));
 xlabel("$t$","Interpreter","latex");
 ylabel("$|B|$","Interpreter","latex");
+set(gca,'FontSize',20)
 saveas(gcf,'amplitudes-eps009.png');
